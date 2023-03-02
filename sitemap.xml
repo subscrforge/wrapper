@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+         <loc>https://wrapper.subscrforge.dev/index.html</loc>
+         <lastmod>2023-03-02</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://wrapper.subscrforge.dev/en/index.html"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://wrapper.subscrforge.dev/zh/index.html"/>
+         
+    </url>
+    <url>
+         <loc>https://wrapper.subscrforge.dev/development.html</loc>
+         <lastmod>2023-03-02</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://wrapper.subscrforge.dev/en/development.html"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://wrapper.subscrforge.dev/zh/development.html"/>
+         
+    </url>
+    <url>
+         <loc>https://wrapper.subscrforge.dev/user-guide.html</loc>
+         <lastmod>2023-03-02</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://wrapper.subscrforge.dev/en/user-guide.html"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://wrapper.subscrforge.dev/zh/user-guide.html"/>
+         
+    </url>
+</urlset>
