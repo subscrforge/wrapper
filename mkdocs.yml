@@ -1,0 +1,123 @@
+# Project information
+site_name: Wrapper for SubscrForge
+site_url: https://wrapper.subscrforge.dev/
+site_author: SubscrForge Dev
+
+# Repository
+repo_name: subscrforge/wrapper
+repo_url: https://github.com/subscrforge/wrapper/
+
+# Copyright
+copyright: Copyright &copy; 2022 SubscrForge Dev. Licensed under the Creative Commons Attribution 4.0 International License.
+
+# Configuration
+theme:
+  name: material
+
+  include_search_page: false
+  search_index_only: true
+
+  features:
+    - content.code.annotate
+    # - content.tabs.link
+    - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: deep-purple
+      accent: deep-purple
+      toggle:
+        icon: material/weather-sunny
+    - scheme: slate
+      primary: deep-purple
+      accent: deep-purple
+      toggle:
+        icon: material/weather-night
+  font:
+    text: Inter
+    code: Noto Sans Mono
+  icon:
+    repo: fontawesome/brands/github
+
+# Plugins
+plugins:
+  - search
+  - exclude:
+      glob:
+        - README/*
+  - i18n:
+      default_language: !ENV [DEFAULT_LANGUAGE, "en"]
+      languages:
+        en: English
+        zh: 简体中文
+      nav_translations:
+        zh:
+          Introduction: 介绍
+          Usage: 使用
+          User Guide: 用户指南
+
+extra:
+  alternate:
+    - name: English
+      link: ./
+      lang: en
+    - name: 简体中文
+      link: ./zh/
+      lang: zh
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Introduction: index.md
+  - Usage:
+      - User Guide: user-guide.md
