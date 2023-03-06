@@ -29,7 +29,7 @@ unasync = "^0.5.0"
 pytest = "^7.2.0"
 
 [tool.poetry.group.doc.dependencies]
-mkdocs-material = "^9.0.15"
+mkdocs-material = "^9.1.1"
 mkdocs-static-i18n = "^0.53"
 mkdocs-exclude = "^1.0.2"
 mike = "^1.1.2"
