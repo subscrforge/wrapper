@@ -10,7 +10,7 @@ packages = [{include = "wrapper"}]
 [tool.poetry.dependencies]
 python = ">=3.8, <3.11"
 httpx = { version = "^0.23.1", extras = ["http2"] }
-pydantic = "^1.10.2"
+pydantic = "^1.10.6"
 lxml = "^4.9.2"
 babel = "^2.11.0"
 natsort = "^8.2.0"
